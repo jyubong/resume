@@ -61,6 +61,8 @@ section {
   border: 1px solid #ccc;
   border-radius: 50%;
   box-shadow: 5px 5px #eee;
+  width: 100px;
+  height: 100px;
 }
 
 /* 왼쪽, 자기 소개 부분 */
@@ -78,8 +80,15 @@ i {
   margin-left: 3em;
 }
 
+#left h2 {
+  text-transform: capitalize;
+  font-size: 1.5em;
+  margin: 1em auto;
+}
+
 #left p {
   line-height: 1.2;
+  margin-top: 2em;
 }
 
 /* 오른쪽, 경력 부분 */
@@ -87,6 +96,10 @@ i {
   text-transform: capitalize;
   font-size: 1.5em;
   margin: 2em auto 2em -1.5em;
+}
+
+#right h2 hr{
+  margin-top: 1em;
 }
 
 #right p {
